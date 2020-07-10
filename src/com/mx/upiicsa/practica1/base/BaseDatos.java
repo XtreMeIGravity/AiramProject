@@ -14,7 +14,7 @@ public class BaseDatos {
 	            }
 	            connection = null;
 	            connection = DriverManager.getConnection(
-	                    "jdbc:postgresql://localhost:5433/Disco",//Cambie D a mayus
+	                    "jdbc:postgresql://localhost:5432/disco",//Cambie D a mayus
 	                    "postgres", "root");//Cambie Passw
 
 	            boolean valid = connection.isValid(50000);
